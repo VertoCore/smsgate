@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smpp", "Smpp\Smpp.csproj", "{5A02A194-EC93-408A-8AA0-1BB754C78DC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smpp", "Smpp\Smpp.csproj", "{5A02A194-EC93-408A-8AA0-1BB754C78DC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smpp.Tests", "Smpp.Tests\Smpp.Tests.csproj", "{5B5325B1-1715-4BCF-AAC3-4EAF38F4756A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smpp.Tests", "Smpp.Tests\Smpp.Tests.csproj", "{5B5325B1-1715-4BCF-AAC3-4EAF38F4756A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmppServer", "SmppServer\SmppServer.csproj", "{00C84CAF-718A-4F81-9DFB-5D62DBFBF883}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{5B5325B1-1715-4BCF-AAC3-4EAF38F4756A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B5325B1-1715-4BCF-AAC3-4EAF38F4756A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B5325B1-1715-4BCF-AAC3-4EAF38F4756A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C84CAF-718A-4F81-9DFB-5D62DBFBF883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C84CAF-718A-4F81-9DFB-5D62DBFBF883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C84CAF-718A-4F81-9DFB-5D62DBFBF883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C84CAF-718A-4F81-9DFB-5D62DBFBF883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA550F13-912F-44DD-B442-BEC68029CB92}
 	EndGlobalSection
 EndGlobal

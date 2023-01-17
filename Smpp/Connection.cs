@@ -305,7 +305,7 @@ namespace Smpp
             }
             catch
             {
-                ;// Communication issues, bad stream, ignore
+                // Communication issues, bad stream, ignore
             }
         }
 
