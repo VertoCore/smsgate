@@ -35,7 +35,7 @@ var AddServer = (string name, string systemId, string password) =>
     return server;
 };
 
-string q = "";
+string? q = "";
 do
 {
     try
@@ -51,8 +51,7 @@ do
         gate.Events.NewMessageEvent += Events_NewMessageEvent;
         gate.Events.MessageDeliveryReportEvent += Events_MessageDeliveryReportEvent;
 
-
-        Console.WriteLine("Press <ENTER> to exit!");
+        Console.WriteLine("Write q and Press <ENTER> to exit!");
         q = Console.ReadLine();
     }
     catch (Exception) { }
